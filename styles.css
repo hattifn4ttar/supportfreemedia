@@ -126,6 +126,7 @@ body {
   background-color: rgba(85,83,255,0.25);
   background-color: #137bc036;
   background-color: #1367c038;
+  background-color: #1178e738;
 }
 .link-lang {
   color: rgba(255,255,255,0.9);
@@ -140,15 +141,6 @@ body {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  /*
-  background-color: #e4deee;
-  background-color: rgb(210, 227, 252, 0.5);
-  background-color: #dbe2f4de;
-  border: 1px solid #9384ab;
-  border: 1px solid rgba(26, 115, 232, 0.2);
-  border: 1px solid #b3c3ec74;
-  border-radius: 2px;
-  */
   margin-top: -8px;
 }
 .tab button {
@@ -180,54 +172,3 @@ body {
   border-radius: 200px;
   top: 10px;
 }
-
-/* columns */
-/*
-.container-flex {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.columns {
-  display: flex;
-  flex-wrap: wrap;
-}
-.col1, .col3 {
-  flex-grow: 2;
-  padding: 35px 20px;
-}
-.col2 {
-  flex-grow: 2;
-  max-width: 650px;
-}
-@media only screen and (max-width: 1300px) {
-  .col1 {
-    display: none;
-  }
-}
-@media only screen and (max-width: 1080px) {
-  .columns {
-  }
-  .col3 {
-    order: 1;
-    padding: 20px 50px 0px 50px;
-  }
-  .col2 {
-    order: 2;
-    padding-top: 0;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
-  .col3 {
-    order: 1;
-    padding: 20px 50px 0px 50px;
-  }
-  .col2 {
-    max-width: 80%;
-    width: 100%;
-  }
-}
-*/

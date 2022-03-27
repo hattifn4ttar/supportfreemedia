@@ -182,3 +182,7 @@ body {
   font-weight: 500;
   font-family: Ubuntu, Inter,Helvetica Neue,Helvetica, roboto, Arial, sans-serif;
 }
+
+.instruction {
+  margin-bottom: -10px;
+}

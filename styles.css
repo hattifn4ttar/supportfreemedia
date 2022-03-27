@@ -1,22 +1,20 @@
 html {
   font-family: roboto, Arial, Ubuntu,  sans-serif;
-  font-size: 14px;
+  font-family: Inter,Helvetica Neue,Helvetica, roboto, Arial, Ubuntu, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
 }
 body {
   margin: 0;
 }
 .header {
-  background-color: #21252b;
-  /* background-color: rgb(32, 32, 51); */
-  color: white !important;  
   max-width: 100%;
-  height: 75px;
   padding: 10px 0px;
   width: 100%;
 }
 
 .content {
-  padding: 30px 0px;
+  padding: 0px 0px 30px 0px;
   margin-bottom: 200px;
   width: 100%;
 }
@@ -54,11 +52,15 @@ body {
   font-family: Ubuntu, roboto, Arial, sans-serif;
 }
 .header-title {
-  font-size: 22px;
+  font-size: 31px;
+  line-height: 41px;
   font-weight: 500;
   font-family: Ubuntu, roboto, Arial, sans-serif;
-  max-width: 650px;
-  margin-top: 20px;
+  max-width: 680px;
+  margin-top: 50px;
+}
+.section-header {
+  margin-bottom: 0 !important;
 }
 .logo {
   display: none;
@@ -66,8 +68,7 @@ body {
 }
 
 .text {
-  max-width: 650px;
-  line-height: 21px;
+  max-width: 670px;
   position: relative;
 }
 .introduction {
@@ -105,9 +106,10 @@ body {
   background-color: #1360a4;
   border: 1px solid #1360a4;
   font-weight: 700;
-  padding: 9px 12px;
+  padding: 8px 12px;
   border-radius: 3px;
   cursor: pointer;
+  margin-right: 0px;
 }
 .buttons-right {
   width: 350px;
@@ -117,8 +119,11 @@ body {
   padding: 20px;
   text-align: right;
 }
+.buttons {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
 .btn-github {
-  margin-left: 6px;
 }
 .btn-youtube {
 }
@@ -129,7 +134,6 @@ body {
   background-color: #1178e738;
 }
 .link-lang {
-  color: rgba(255,255,255,0.9);
   font-size: 14px;
   margin-right: 10px;
 }
@@ -171,4 +175,10 @@ body {
   max-height: 100px;
   border-radius: 200px;
   top: 10px;
+}
+
+
+.text-bold {
+  font-weight: 500;
+  font-family: Ubuntu, Inter,Helvetica Neue,Helvetica, roboto, Arial, sans-serif;
 }

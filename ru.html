@@ -3,42 +3,48 @@
     <head>
       <link rel="stylesheet" href="styles.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
       <title>Support Free Media</title>
     </head>  
 <body>
   <div class="header">
-    <div class="section text">
-      <div class="header-title">Поддержать независимые Российские медиа</div>
+    <div class="section text section-header">
+      <p>
+        <a href="ru.html" id="ruLink" class="link-lang">Ru</a>
+        <a href="index.html" id="enLink" class="link-lang">En</a>
+        Проект против пропаганды 
+      </p>
+      <div class="header-title">Помогайте распространять правду о войне в Украине - с нашим приложением это делать проще</div>
+      <div class="buttons">
+        <button class="btn btn-github" id="extensionLink">Установить</button>
+        <button class="btn btn-youtube" id="youtubeLink">YouTube</button>
+        <button class="btn btn-github" id="githubLink">GitHub</button>
+      </div>
       <br />
-    </div>
-    <div class="buttons-right">
-      <a href="ru.html" id="ruLink" class="link-lang">Ru</a>
-      <a href="index.html" id="enLink" class="link-lang">En</a>
-      <button class="btn btn-github" id="githubLink">Открыть GitHub</button>
-      <button class="btn btn-youtube" id="youtubeLink">Открыть YouTube</button>
     </div>
   </div>
   <div class="columns">
     <div class="content">
       <div class="introduction text section">
-
-        <div class="title">
-          <span class="highlight">О проекте</span></div><p>
-          Основано на  
-          <a href="https://www.youtube.com/watch?v=eTSipyTLSjo" id="youtubeLink">видео @detoxbrainwash</a>.
-        </p>
         <p>
-          <span class="highlight">В ситуации когда независимые СМИ закрыты и социальные сети заблокированы в России, YouTube остается одним из немногих платформ где все еще
+          <span class="highlight2">В ситуации когда независимые СМИ закрыты и социальные сети заблокированы в России, YouTube остается одним из немногих платформ где все еще
             можно делиться информацией.
             </span>
         </p>
         <p>
-          В <a href="https://www.youtube.com/channel/UCM326iLPPGxSoXZu6GFgu4Q" id="youtubeLink">этом видео</a> @detoxbrainwash показывает как кремлеботы накручивают просмотры пропагандистским материалам в YouTube.
+          В <a href="https://www.youtube.com/channel/UCM326iLPPGxSoXZu6GFgu4Q" id="youtubeLink">этом видео</a> @detoxbrainwash показывает как накручивают просмотры пропагандистским материалам в YouTube.
           В результате в рекомендациях YouTube преобладают видео в поддержку войны в Украине и других преступлений Путина. 
         </p>
         <p>
-          Мы сделали расширение для браузера которое помогает продвигать видео от независимых каналов.
-          Расширение открывает ваш плейлист в нескольких вкладках, прокручивает и лайкает видео из списка.
+          Мы сделали <a href="ru.html" id="extensionLink2">расширение для браузера</a> которое помогает продвигать видео от независимых каналов в один клик.
+          Расширение открывает независимые YouTube каналы в нескольких вкладках, прокручивает и лайкает последние видео. В зависимости от настроек можно запустить рекомендуемый плейлист вместо отдельных каналов.
+          <span class="text-bold2 highlight">Если использовать расширение коллективно, мы можем повлиять на рекоммендации YouTube.</span>
+        </p>
+        <p>
+          Также доступна <a href="ru.html" id="extensionLink3">другая версия расширения</a> в которой можно запускать ваш плейлист вместо рекомендуемого.
+
           Поддерживаются браузеры Chrome, Edge, Opera.
         </p>
       </div>
@@ -47,19 +53,22 @@
         <div class="title"><span class="highlight2">Установка</span></div>
         <p>
           Расширение доступно в Chrome Store -  
+          <a href="https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe" id="youtubeLink">"Support free media on YouTube"</a>.
+          <br />
+          Версия расширения в которой можно запускать свой плейлист - 
           <a href="https://chrome.google.com/webstore/detail/imhjfmnknoeepdohjdohpmggjhkjfpig" id="youtubeLink">"Promote YouTube videos"</a>.
-          <br /><br />
-          
-          Так же его можно установить локально:
+          <br />      
+          Расширения можно также установить локально:
         </p>
         <div class="tab">
-          <button class="tablinks" onclick="clickHelpTab(event, 'Cat')">Chrome</button>
-          <button class="tablinks" onclick="clickHelpTab(event, 'Bear')">Edge</button>
+          <button class="tablinks" onclick="clickHelpTab(event, 'Chrome')">Chrome</button>
+          <button class="tablinks" onclick="clickHelpTab(event, 'Edge')">Edge</button>
         </div>
       
-        <div id="Cat" class="tabcontent">
+        <div id="Chrome" class="tabcontent">
           <ol>
-            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/" id="youtubeLink">this link</a>.</li>
+            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_supportfreemedia/zipball/master/" id="youtubeLink">this link</a> 
+              for extension #1 or <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/">this link</a> for extension #2.</li>
             <li>Unzip the archive in any location on your machine.</li>
             <li>Open Extentions manager in Chrome browser - copy this link to your browser <i>chrome://extensions/</i>
             </li>
@@ -75,9 +84,10 @@
           </ol>
         </div>
       
-        <div id="Bear" class="tabcontent">
+        <div id="Edge" class="tabcontent">
           <ol>
-            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/" id="youtubeLink">this link</a>.</li>
+            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_supportfreemedia/zipball/master/" id="youtubeLink">this link</a> 
+              for extension #1 or <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/">this link</a> for extension #2.</li>
             <li>Unzip the archive in any location on your machine.</li>
             <li>Open Extentions manager in Edge browser - copy this link to your browser <i>edge://extensions/</i>
             </li>
@@ -92,47 +102,13 @@
             </li>
           </ol>
         </div>
-        
-        <script>
-        function clickHelpTab(evt, animalName) {
-          let i, tabcontent, tablinks;
-        
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(animalName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-        </script>
-
-        <p>
-          Доступна также упрощенная версия расширения
-          <a href="https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe" id="youtubeLink">"YouTube - Support Independent Media"</a>.
-          Список YouTube каналов и плейлист включены в этой версии - запускать видео можно в один клик кнопки "Open Tabs".
-        </p>
       </div>
 
-      <div class="introduction text section">
-        <div class="title"><span class="highlight2">Как использовать</span></div>
-        <p>
-
-          Откройте плейлист который собираетесь продвигать. Рекомендуемый плейлист: <a href="https://www.youtube.com/playlist?list=PLQxYKug91T31ixyCs81TwIl8wAiD9AZAH" id="youtubeLink">Independent Russian Media</a>.
-          <br />
-          Нажмите кнопку расширения в браузере, выберите количество вкладок:
-          <img src="images/extension_preview.png" alt="Extension screenshot" class="img img-preview">
-        </p>
-
-      </div>
 
       <div class="introduction text section">
-        <div class="title"><span class="highlight">Рекоммендации для создания плейлиста</span></div>
+        <div class="title"><span class="highlight2">Рекоммендации для создания плейлиста</span></div>
         <p>
-          Мы советуем следовать следующим принципам при выборе видео для плейлиста:
+          <span class="highlight2">Если используете свой плейлист, мы советуем следовать следующим принципам при выборе видео:</span>
 
           <ol>
             <li>Продвигать один плейлист командой эффективнее чем каждому участнику создавать отдельный плейлист. Это увеличивает шансы отдельных видео попасть в рекоммендации.</li>
@@ -141,15 +117,13 @@
             </li>
             <li>Выбирайте видео с нейтральным названием. Название не должно отталкивать зрителей со смешанными взглядами.
             </li>
-            <li>Выбирайте видео достаточно простые для зрителей незнакомых с ситуацией в стране и в мире.</li>
-            <li>Выбирайте видео хорошего качества.</li>
+            <li>Выбирайте видео достаточно простые для зрителей незнакомых с ситуацией.</li>
             <li>Избегайте видео жесткого содержания.</li>
             <li>Вместо загрузки новых видео, пробуйте попросить известного автора сделать видео на нужную тему.</li>
-            <li>Для авторов контента - старайтесь добавлять английские субтитры. Это упростит распространение видео на международную аудиторию.</li>
+            <li>Для авторов контента - старайтесь добавлять английские субтитры. Это упростит распространение видео среди международной аудитории.</li>
           </ol>
         </p>
-        Рекомендуемый плейлист: <a href="https://www.youtube.com/playlist?list=PLQxYKug91T31ixyCs81TwIl8wAiD9AZAH" id="youtubeLink">Independent Russian Media</a>.
-
+        Рекомендуемый плейлист: <a href="https://www.youtube.com/playlist?list=PLQxYKug91T31ixyCs81TwIl8wAiD9AZAH">Independent Russian Media</a>.
       </div>
 
       <div class="introduction text section">
@@ -157,7 +131,7 @@
         <p>
           Discord (ru) <a href="https://discord.gg/s7M4QnDtys" id="youtubeLink">https://discord.gg/s7M4QnDtys</a>
           <br />Twitter <a href="https://twitter.com/Hattifnattar1" id="youtubeLink">@Hattifnattar1</a>
-          <br />We welcome developers who are willing to support <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist" id="youtubeLink">the project</a>
+          <br />We welcome developers who are willing to support <a href="https://github.com/hattifn4ttar/youtube_supportfreemedia/">the project</a>
         </p>
       </div>
     </div>

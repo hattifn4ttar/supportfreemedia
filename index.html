@@ -3,6 +3,9 @@
     <head>
       <link rel="stylesheet" href="styles.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
       <title>Support Free Media</title>
     </head>  
 <body>
@@ -15,51 +18,53 @@
   </div>
 -->
   <div class="header">
-    <div class="section text">
-      <div class="header-title">Support independent Russian media</div>
+    <div class="section text section-header">
+      <p>
+        <a href="ru.html" id="ruLink" class="link-lang">Ru</a>
+        <a href="index.html" id="enLink" class="link-lang">En</a>
+        Project to fight propaganda 
+      </p>
+      <div class="header-title">Help to spread truth about the war in Ukraine - our Chrome extension makes it easier</div>
+      <div class="buttons">
+        <button class="btn btn-github" id="extensionLink">Install</button>
+        <button class="btn btn-youtube" id="youtubeLink">YouTube</button>
+        <button class="btn btn-github" id="githubLink">GitHub</button>
+      </div>
       <br />
-    </div>
-    <div class="buttons-right">
-      <a href="ru.html" id="ruLink" class="link-lang">Ru</a>
-      <a href="index.html" id="enLink" class="link-lang">En</a>
-      <button class="btn btn-github" id="githubLink">View on GitHub</button>
-      <button class="btn btn-youtube" id="youtubeLink">View on YouTube</button>
     </div>
   </div>
   <div class="columns">
     <div class="content">
       <div class="introduction text section">
-
-        <div class="title">
-          <!--<img src="images/img128_2.png" alt="Promote YouTube Playlist" class="img img-logo">-->
-          <span class="highlight">About the project</span></div><p>
-          Inspired by and based on 
-          <a href="https://www.youtube.com/watch?v=eTSipyTLSjo" id="youtubeLink">@detoxbrainwash video</a>.
-        </p>
         <p>
           <!--Alongside the war in Ukraine, another war happens inside Russia between V. Putin and Russian people who are not willing to support Putin's regime.<br />-->
-          <span class="highlight">In the situation when most independent media are destroyed and social networks are blocked in Russia, YouTube becomes one of
+          <span class="highlight2">In the situation when most independent media are destroyed and social networks are blocked in Russia, YouTube becomes one of
           the few remaining platforms where people can share their opinion and get access to the independent sources of information. 
           </span>
         </p>
         <p>
           According to <a href="https://www.youtube.com/channel/UCM326iLPPGxSoXZu6GFgu4Q" id="youtubeLink">@detoxbrainwash</a>,
           one of the strategies used by V. Putin involves boosting propaganda materials on YouTube.
-          As a result, the content advocating the war in Ukraine and other Putin's crimes dominates in YouTube recommendations in the Russian segment. 
+          As a result, content advocating the war in Ukraine and other Putin's crimes dominates in YouTube recommendations in the Russian segment. 
         </p>
         <p>
-          We are providing a Chrome Extension that can help to promote selected videos and YouTube channels, if used collectively.<br />
-          The extension will open a playlist of your choice in multiple tabs and loop through videos with optimal interval. Supported browsers are Chrome, Edge and Opera.
+          We made a  <a href="index.html" id="extensionLink2">Chrome extension</a> that opens independent YouTube channels telling truth about the war in Ukraine. It opens each channel in a separate tab,
+          watches latest video for optimal time and likes it. Depending on your settings selection, it can also open a playlist with recommended videos instead of channels.
+          <span class="highlight">If used collectively, we can affect YouTube recommendations.</span>
+        </p>
+        <p>
+          <a href="index.html" id="extensionLink3">Another version</a> of the extension is avilable - it allows to open your playlist instead of the recommended one.
         </p>
       </div>
 
       <div class="introduction text section">
         <div class="title"><span class="highlight2">How to install the extension</span></div>
         <p>
-          The extension is published in Chrome Store, please see <a href="https://chrome.google.com/webstore/detail/imhjfmnknoeepdohjdohpmggjhkjfpig" id="youtubeLink">"Promote YouTube videos"</a> 
-          and follow the standard installation process. 
-          <br /><br />
-          You can also install the extension locally. Select browser to see the instructions:
+          The extension is published in Chrome Store - <a href="index.html" id="extensionLink2">"Support free media on YouTube"</a> 
+          <br />
+          Another version of the extension where you can select a playlist - <a href="index.html" id="extensionLink3">"Promote YouTube playlist"</a>
+          <br />
+          You can also install both extensions locally:
         </p>
         <div class="tab">
           <button class="tablinks" onclick="clickHelpTab(event, 'Cat')">Chrome</button>
@@ -68,7 +73,8 @@
       
         <div id="Cat" class="tabcontent">
           <ol>
-            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/" id="youtubeLink">this link</a>.</li>
+            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_supportfreemedia/zipball/master/" id="youtubeLink">this link</a> 
+              for extension #1 or <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/">this link</a> for extension #2.</li>
             <li>Unzip the archive in any location on your machine.</li>
             <li>Open Extentions manager in Chrome browser - copy this link to your browser <i>chrome://extensions/</i>
             </li>
@@ -86,7 +92,8 @@
       
         <div id="Bear" class="tabcontent">
           <ol>
-            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/" id="youtubeLink">this link</a>.</li>
+            <li>Download extension folder from GitHub - use <a href="https://github.com/hattifn4ttar/youtube_supportfreemedia/zipball/master/" id="youtubeLink">this link</a> 
+              for extension #1 or <a href="https://github.com/hattifn4ttar/youtube_promoteplaylist/zipball/master/">this link</a> for extension #2.</li>
             <li>Unzip the archive in any location on your machine.</li>
             <li>Open Extentions manager in Edge browser - copy this link to your browser <i>edge://extensions/</i>
             </li>
@@ -101,47 +108,12 @@
             </li>
           </ol>
         </div>
-        
-        <script>
-        function clickHelpTab(evt, animalName) {
-          let i, tabcontent, tablinks;
-        
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(animalName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-        </script>
-
-        <p>
-          "One click" version of the extension is also available -
-          <a href="https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe" id="youtubeLink">"YouTube - Support Independent Media"</a>.
-          It has a list of YouTube channels and a playlist built in, so you only need to click "Open tabs" button to play videos.
-        </p>
       </div>
 
       <div class="introduction text section">
-        <div class="title"><span class="highlight2">How to use</span></div>
+        <div class="title"><span class="highlight2">Playlist guidelines</span></div>
         <p>
-          Open YouTube playlist with videos you want to boost. Recommended: 
-          <a href="https://www.youtube.com/playlist?list=PLQxYKug91T31ixyCs81TwIl8wAiD9AZAH" id="youtubeLink">Independent Russian Media</a>.
-          <br />
-          Then click the extension button, and select the number of tab that works for you. 
-          <img src="images/extension_preview.png" alt="Extension screenshot" class="img img-preview">
-        </p>
-
-      </div>
-
-      <div class="introduction text section">
-        <div class="title"><span class="highlight">Playlist guidelines</span></div>
-        <p>
-          We suggest following these guidelines when creating a playlist. It is important to keep videos simple enough and of a decent quality, 
+          If you create your own playlist, we suggest following these guidelines. It is important to keep videos simple enough and of a decent quality, 
           so it is easier to understand the content for an unprepared person. 
 
           <ol>

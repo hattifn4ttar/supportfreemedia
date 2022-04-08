@@ -62,10 +62,6 @@ body {
 .section-header {
   margin-bottom: 0 !important;
 }
-.logo {
-  display: none;
-  max-width: 70px;
-}
 
 .text {
   max-width: 670px;
@@ -185,4 +181,12 @@ body {
 
 .instruction {
   margin-bottom: -10px;
+}
+
+.footer {
+  margin-top: 70px;
+}
+.logo {
+  max-width: 70px;
+  border-radius: 5px;
 }

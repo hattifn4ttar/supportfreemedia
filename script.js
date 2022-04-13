@@ -3,7 +3,7 @@ document.getElementById('youtubeLink').addEventListener('click', () => window.op
 // document.getElementById('youtubeLinkEn').addEventListener('click', () => window.open('https://www.youtube.com/watch?v=jowEf5tSSyc'));
 document.getElementById('extensionLink').addEventListener('click', () => window.open('https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe'));
 document.getElementById('extensionLink2').addEventListener('click', () => window.open('https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe'));
-document.getElementById('extensionLink3').addEventListener('click', () => window.open('https://chrome.google.com/webstore/detail/promote-youtube-videos/imhjfmnknoeepdohjdohpmggjhkjfpig'));
+// document.getElementById('extensionLink3').addEventListener('click', () => window.open('https://chrome.google.com/webstore/detail/promote-youtube-videos/imhjfmnknoeepdohjdohpmggjhkjfpig'));
 
 document.getElementById('ruLink').addEventListener('click', () => location.replace('ru.html'));
 document.getElementById('enLink').addEventListener('click', () => location.replace('./'));

@@ -1,5 +1,6 @@
 document.getElementById('githubLink').addEventListener('click', () => window.open('https://github.com/hattifn4ttar/youtube_supportfreemedia'));
 document.getElementById('youtubeLink').addEventListener('click', () => window.open('https://www.youtube.com/watch?v=eTSipyTLSjo'));
+document.getElementById('twitterLink').addEventListener('click', () => window.open('https://twitter.com/Hattifnatt4r'));
 // document.getElementById('youtubeLinkEn').addEventListener('click', () => window.open('https://www.youtube.com/watch?v=jowEf5tSSyc'));
 document.getElementById('extensionLink').addEventListener('click', () => window.open('https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe'));
 document.getElementById('extensionLink2').addEventListener('click', () => window.open('https://chrome.google.com/webstore/detail/youtube-support-independe/eebejapgbcnnodjkcnnbdloicadofnoe'));

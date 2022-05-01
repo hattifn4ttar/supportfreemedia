@@ -1,5 +1,6 @@
 {
   "videoDurationSec": 120,
+  "limitPlayCount": 300,
   "comments": [
     { "ru": "Нет войне", "en": "" },
     { "ru": "Cпасибо за правду!", "en": "" },

@@ -92,6 +92,7 @@ body {
 }
 .img-popup {
   max-height: 400px;
+  max-width: 540px;
   box-shadow: 1px 3px 8px 0 rgb(0 0 0 / 8%), 0 1px 10px 0 rgb(0 0 0 / 6%), 2px 1px 4px -1px rgb(0 0 0 / 10%);
 }
 .btn {

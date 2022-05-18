@@ -253,23 +253,27 @@
     "urls": ["www.youtube.com/channel/UCQVtD_N4OeD-9PshBq7NwyQ", "www.youtube.com/c/FeyginLive"],
     "videoDurationMin": 30,
     "subsThousand": 54,
-    "name": "ФЕЙГИН LIVE",
-    "play": false
+    "name": "ФЕЙГИН LIVE"
   },
   { "id": 33,
     "url": "www.youtube.com/channel/UCrp2It0yWUC7XcrWyBIQeKw",
     "urls": ["www.youtube.com/channel/UCrp2It0yWUC7XcrWyBIQeKw", "www.youtube.com/c/NEXTALive"],
     "videoDurationMin": 30,
     "subsThousand": 579,
-    "name": "NEXTA Live",
-    "play": false
+    "name": "NEXTA Live"
   },
   { "id": 33,
     "url": "www.youtube.com/channel/UCTVk323gzizpujtn2T_BL7w",
     "urls": ["www.youtube.com/channel/UCTVk323gzizpujtn2T_BL7w", "www.youtube.com/c/plushev"],
     "videoDurationMin": 30,
     "subsThousand": 156,
-    "name": "Alexandr Plushev",
-    "play": false
+    "name": "Alexandr Plushev"
+  },
+  { "id": 34,
+    "url": "www.youtube.com/channel/UCy1xqjMJExef6EtEXfAULcg",
+    "urls": ["www.youtube.com/channel/UCy1xqjMJExef6EtEXfAULcg"],
+    "videoDurationMin": 30,
+    "subsThousand": 43,
+    "name": "BILD на русском"
   }
 ]

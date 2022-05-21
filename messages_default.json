@@ -1,14 +1,20 @@
 [
   { "author": "default",
     "date": "2022-05-21T20:33:41.976Z",
-    "message": "TEST. Second message -<br /> <img src='https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png' alt='test'>"
+    "message_text": "TEST. Second message -<br />",
+    "message_img_url": "https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png",
+    "mdssage_url": ""
   },
   { "author": "default",
     "date": "2022-05-21T20:31:41.976Z",
-    "message": "TEST. Hi there, see this pic -<br /> <img src='https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png' alt='test'>"
+    "message_text": "TEST. Hi there, see this pic",
+    "message_img_url": "https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png",
+    "mdssage_url": ""
   },
   { "author": "default",
     "date": "2022-05-20T20:31:41.976Z",
-    "message": "TEST. Hi there, see this pic -<br /> <img src='https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png' alt='test'>"
+    "message_text": "TEST. Hi there, see this pic -<br /> <img src='https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png' alt='test'>",
+    "message_img_url": "https://hattifn4ttar.github.io/supportfreemedia/images/img128_2.png",
+    "mdssage_url": ""
   }
 ]
